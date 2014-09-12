@@ -1,0 +1,16 @@
+{
+  "title" : "Adapter Sequence",
+  "type" : "object",
+  "properties" : {
+    "identifier" : {
+      "type" : "string"
+    },
+    "sequence5" : {
+      "type" : "string"
+    },
+    "sequence3" : {
+      "type" : "string"
+    }
+  },
+  "required" : ["identifier","sequence5","sequence3"]
+}
