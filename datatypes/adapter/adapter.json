@@ -5,12 +5,12 @@
     "identifier" : {
       "type" : "string"
     },
-    "sequence5" : {
+    "forward" : {
       "type" : "string"
     },
-    "sequence3" : {
+    "reverse" : {
       "type" : "string"
     }
   },
-  "required" : ["identifier","sequence5","sequence3"]
+  "required" : ["identifier","forward","reverse"]
 }
