@@ -1,0 +1,16 @@
+{
+  "id" : "schema_fastq_file",
+  "schema" : {
+    "title" : "FASTQ Sequence File",
+    "type" : "object",
+    "properties" : {
+      "filename" : {
+        "type" : "string"
+      },
+      "server" : {
+        "type" : "string"
+      }
+    },
+    "required" : ["filename","server"]
+  }
+}

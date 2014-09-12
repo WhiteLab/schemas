@@ -1,0 +1,19 @@
+{
+  "id" : "schema_fastq_object",
+  "schema" : {
+    "title" : "FASTQ Sequence Object",
+    "type" : "object",
+    "properties" : {
+      "store" : {
+        "type" : "string"
+      },
+      "container" : {
+        "type" : "string"
+      },
+      "object" : {
+        "type" : "string"
+      }
+    },
+    "required" : ["store","container","object"]
+  }
+}
